@@ -12,6 +12,12 @@
         "SomeGitRepo" : {
             "url" : "https://www.github.com/YourOrganization/RepoOne.git"
         },
+        "SomeGitRepoWithGitHubPAT" : {
+            "url" : "https://www.github.com/YourOrganization/RepoOne.git",
+            "vcs-config" : {
+                "github-token-env-var": "GITHUB_PULL_TOKEN"
+            }
+        },
         "AnotherGitRepo" : {
             "url" : "https://www.github.com/YourOrganization/RepoOne.git",
             "ms-between-poll" : 10000,
